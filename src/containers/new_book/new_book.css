@@ -1,0 +1,65 @@
+.add_btn {
+  width: 10rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(41, 152, 255, 0.8),
+    rgb(0, 7, 60, 0.8)
+  );
+
+  border: 0;
+  color: white;
+}
+
+.modal-content {
+  border: 0 !important;
+  overflow: hidden;
+}
+.modal-header {
+  background-image: linear-gradient(
+    to right bottom,
+    /** rgb(41, 152, 255, 0.8)**/ rgb(155, 88, 181),
+    rgb(86, 67, 250, 0.8)
+  );
+  color: white;
+}
+.modal-footer {
+  background-color: #f7f7f7;
+}
+
+.close__btn {
+  margin-right: 1.5rem;
+}
+
+.close__btn:hover {
+  background-color: #aaaaaacf;
+}
+
+.submit__btn:hover {
+  background-color: #32cd32;
+}
+.btn-primary {
+  background-color: rgb(155, 88, 181);
+  border-color: rgb(155, 88, 181);
+}
+.btn-primary:hover {
+  background-color: rgb(145, 70, 175);
+  border-color: rgb(145, 70, 175);
+}
+
+.btn__add__plus {
+  background-image: url(../../../src/img/add_icon.png);
+  height: 3rem;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 3rem;
+  clip-path: circle(50% at 50% 50%);
+  transition: all 0.2s;
+}
+
+.btn__add__plus:hover {
+  transform: scale(1.11);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.is-invalid {
+  border: 0.1rem solid #cc0000;
+}

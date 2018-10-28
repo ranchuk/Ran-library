@@ -1,0 +1,45 @@
+.header {
+  height: 35rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(168, 168, 168, 0.041),
+      rgba(230, 217, 233, 0.192)
+    ),
+    url(../../../src/img/link-hoang-31747-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.center__box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+
+.header__heading {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  animation: moveInLeft 3s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

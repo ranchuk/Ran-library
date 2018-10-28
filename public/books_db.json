@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "To Kill A Mockingbird",
+    "author_name": "Harper Lee",
+    "published_date": "11-10-1998"
+  },
+  {
+    "id": "2",
+    "title": "Pride And Prejudice",
+    "author_name": "Jane Austen",
+    "published_date": "15-05-2008"
+  },
+  {
+    "id": "3",
+    "title": "The Diary Of Anne Frank",
+    "author_name": "Anne Frank",
+    "published_date": "09-10-2010"
+  },
+  {
+    "id": "4",
+    "title": "Harry Potter And The Sorcerer's Stone",
+    "author_name": "J.K Rolling",
+    "published_date": "08-09-1999"
+  }
+]

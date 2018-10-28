@@ -1,0 +1,62 @@
+.book__detail__card {
+  width: 18rem;
+  height: 22rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 5rem;
+  transition: transform 0.3s;
+}
+
+.book__detail__card:hover {
+  transform: translateY(-1rem) scale(1.03);
+}
+
+.book__detail__card__header__box {
+  padding: 1.5rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(155, 88, 181),
+    rgb(86, 67, 250, 0.8)
+  );
+  height: 30%;
+  width: 100%;
+  position: relative;
+}
+
+.book__detail__card__header {
+  font-size: 1.3rem;
+  color: white;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book__detail__card__details {
+  padding: 1rem 0;
+}
+
+.book__detail__card__details > p {
+  margin: 0 2rem;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 0.6rem 0;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.book__detail__card_btn_box {
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+}
+
+.center__box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
